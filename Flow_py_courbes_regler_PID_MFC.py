@@ -167,7 +167,7 @@ if monPort !="":
                 x=0
             feuillet.after(100,count_consigne)
         count_consigne()
-    
+
     counter_mesure=0
     t=0
     u=0
@@ -215,7 +215,7 @@ if monPort !="":
     label_Ti=Label(fen,text="Ti",bg="Azure",fg="red",font="ARIAL 18")
     label_Ti.place(x='880',y='1')
     label_Td=Label(fen,text="Td",bg="Azure",fg="red",font="ARIAL 18")
-    label_Td.place(x='930',y='1')    
+    label_Td.place(x='930',y='1')
 
     consigne=DoubleVar()
     valeur_pleine_echelle=pleine_echelle
